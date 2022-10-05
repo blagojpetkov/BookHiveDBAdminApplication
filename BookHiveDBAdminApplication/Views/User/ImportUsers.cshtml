@@ -1,0 +1,13 @@
+﻿
+
+<div class="container justify-content-md-center">
+    <form method="post" asp-controller="User" asp-action="ImportUsers" enctype="multipart/form-data">
+        <div class="w-25">
+            <input type="file" name="file" class="form-control" />
+        </div>
+
+        <hr />
+
+        <button type="submit" class="btn btn-outline-success">Import Excel</button>
+    </form>
+</div>
